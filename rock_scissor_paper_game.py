@@ -1,6 +1,8 @@
 import random
 
-#Simple program to play rock, scissor and page game
+# Simple program to play rock, scissor and page game
+# The program is using infinite while loop hence it will keep running indefinately until the user closes it or exits
+
 while(True):
     print('\nEnter: \n')
     print('1 - For Rock\n')
@@ -30,16 +32,16 @@ while(True):
         print("Draw")
     elif choice == 1:
         if computer_choice == 2:
-            print("Computer wins, Paper")
+            print("Computer Won - It selected Paper")
         else:
-            print("You win, Scissor")
+            print("You Won - - You selected  Scissor")
     elif choice == 2:
         if computer_choice == 1:
-            print("You win, Rock")
+            print("You Won, - You selected Rock")
         else:
-            print("Computer wins, Scissor")
+            print("Computer Won - It selected Scissor")
     elif choice == 3:
         if computer_choice == 1:
-            print("Computer wins, Rock")
+            print("Computer Won, - It selected Rock")
         else:
-            print("You win, Paper")
+            print("You Won, - You selected Paper")
